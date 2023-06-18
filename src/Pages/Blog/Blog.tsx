@@ -9,7 +9,7 @@ const Blog = () => {
         <br />
         under Construction!
       </Typography>
-      <Link to="/" className="mt-5 inline-block py-2 px-4 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700">Go back to Home</Link>
+      <Link to="/" className="btn">Go back to Home</Link>
     </div>
   );
 };

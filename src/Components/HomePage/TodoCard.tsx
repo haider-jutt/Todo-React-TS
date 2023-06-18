@@ -84,7 +84,7 @@ const TodoCard = () => {
           type="text"
           value={currentTodo?.text}
           onChange={handleEditInputChange}
-          className="mt-5 mb-5 w-full bg-gray-700 text-white placeholder-gray-400 border-gray-400 border-2 p-2 rounded-l-md rounded-r-md focus:outline-none"
+          className="input text-white flex-grow w-full text-lg"
           placeholder="update todo..."
         />
       </Modal>
@@ -96,7 +96,7 @@ const TodoCard = () => {
             type="text"
             value={inputText}
             onChange={handleInputChange}
-            className="flex-grow w-full text-lg bg-gray-700 text-white placeholder-gray-400 border-gray-400 border-2 p-2 rounded-l-md focus:outline-none"
+            className="input flex-grow w-full text-lg"
             placeholder="Add a new todo..."
           />
           <button
